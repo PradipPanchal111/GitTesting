@@ -1,0 +1,238 @@
+.sub_btn
+    {
+        background-color: rgb(205, 49, 49);
+        height: 36px;
+        width: 100px;
+        border-radius: 2px;
+        border: none;
+        color: white;
+        font-size: 15px;
+        transition: opacity 0.60s,
+         background-color 1s;
+    }
+    .sub_btn:hover
+    {
+        background-color: red;
+        cursor: pointer;
+        opacity: 0.6;
+    }
+    .join_btn
+    {
+        background-color: white;
+        color: rgb(31, 31, 225);
+        border-color: blue;
+        height: 36px;
+        width: 70px;
+        border-width: 1px;
+        margin-left: 10px;
+        font-size: 15px;
+        transition: background-color 0.15s,
+        color 0.15s;
+    }
+    .join_btn:hover
+    {
+        background-color: #2525fe;
+        transition-duration: 0.6s;
+        color: white;
+    }
+    .join_btn:active
+    {
+        opacity: 0.7;
+    }
+    .tweet_btn
+    {
+        height: 36px;
+        width: 90px;
+        border-radius: 18px;
+        background-color:rgb(52, 140, 255);
+        color: white;
+        border:none;
+        font-size: 15px;
+        margin-left: 10px;
+        transition: box-shadow 0.50s;
+    }
+    .tweet_btn:hover
+    {
+        box-shadow: 20px 10px 25px rgb(207, 180, 180);
+    }
+    .req_btn
+    {
+        margin-top: 20px;
+        background-color: black;
+        color: white;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        transition: opacity 0.20s;
+    }
+    .req_btn:hover
+    {
+        opacity: 0.8;
+    }
+    .add_cart_btn
+    {
+        background-color: #ffff00;
+        color: black;
+        transition: background-color 0.15s;
+        margin-left: 20px;
+        padding-top: 11px;
+        padding-bottom: 11px;
+        padding-right: 50px;
+        padding-left: 50px;
+        border:none;
+        font-size: 15px;
+        border-radius: 18px;
+    }
+    .add_cart_btn:hover
+    {
+        background-color:rgb(239, 239, 50);
+    }
+    .signup_btn
+    {
+        background-color:rgb(48, 173, 48);
+        color: white;
+        margin-left: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border: none;
+        border-radius: 3px;
+        transition: box-shadow 0.20s;
+    }
+    .signup_btn:hover
+    {
+        box-shadow: 8px 8px 20px rgb(211, 180, 180);
+    }
+    .getstarted_btn
+    {
+        background-color: rgb(143, 4, 143);
+        color: white;
+        margin-top: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+        border: none;
+        border-radius: 2px;
+        transition: background-color 0.20s;
+    }
+    .getstarted_btn:hover
+    {
+        background-color: rgb(124, 16, 124);
+    }
+    .down_btn
+    {
+        margin-left: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+        color: rgb(104, 90, 90);
+        background-color: white;
+        border-width: 1px;
+        border-radius: 3px;
+        transition: background-color 0.20s,
+        color 0.20s;
+    }
+    .down_btn:hover
+    {
+        background-color: rgb(168, 176, 176);
+        color: white;
+    }
+    .apply_btn
+    {
+        background-color: #2828df;
+        color: white;
+        margin-top: 20px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 18px;
+        border:none;
+        transition: background-color 0.20s;
+    }
+    .apply_btn:hover
+    {
+        background-color: #22229f;
+        
+    }
+    .save_btn
+    {
+        background-color: white;
+        color: blue;
+        margin-left: 20px;
+        padding-top: 9px;
+        padding-bottom: 9px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 18px;
+        border-color: blue;
+        border-width: 1px;
+        transition: background-color 0.20s,
+        border-width 0.20s;
+        margin-bottom: 20px;
+    }
+    .save_btn:hover
+    {
+        background-color: rgb(184, 184, 224);
+        border-width: 2px;
+    }
+    .back_to_amz
+    {
+        color: blue;
+        font-family:Arial;
+        text-decoration-line: underline;
+        
+    }
+    .back_to_amz:hover
+    {
+        color: rgb(228, 153, 13);
+    }
+    .add_cart_btn2
+    {
+        background-color: rgb(255, 255, 4);
+        color: black;
+        margin-top: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+        border-radius: 18px;
+        border: none;
+        font-size: 15px;
+        transition: opacity 0.20s;
+        cursor: pointer;
+        
+    }
+    .add_cart_btn2:hover
+    {
+        opacity: 0.7;
+    }
+    .add_cart_btn2:active
+    {
+        opacity: 0.5;
+    }
+    .buy_now_btn
+    {
+        background-color: rgb(255, 91, 32);
+        margin-left: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 35px;
+        padding-right: 35px;
+        border-radius: 18px;
+        border: none;
+        font-size: 15px;
+        cursor: pointer;
+    }
+    .buy_now_btn:hover
+    {
+        background-color: rgb(218, 63, 7);
+    }
+    .buy_now_btn:active
+    {
+        opacity: 0.7;
+    }

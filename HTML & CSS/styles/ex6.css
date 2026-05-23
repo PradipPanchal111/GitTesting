@@ -1,0 +1,18 @@
+.name_inp
+{
+    display: inline-block;
+}
+.load
+{
+    position: absolute;
+    width:600px;
+    height: 36px;
+    left:50%;
+    top:40%;
+    margin-left: 300px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    cursor: pointer;
+    
+}

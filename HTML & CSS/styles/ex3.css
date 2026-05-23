@@ -1,0 +1,138 @@
+.btn_back
+{
+    color: black;
+    background-color: rgb(222, 214, 214);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 2px;
+    border-width: 1px;
+    transition: all 0.5s;
+    margin-right: 10px;
+}
+.btn_next
+{
+    color: black;
+    background-color: rgb(222, 214, 214);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 2px;
+    border-width: 1px;
+    margin-left: 10px;
+}
+.btn_back:hover
+{
+    background-color: blanchedalmond;
+    
+
+}
+.no_btn
+{
+    border: none;
+    background-color: white;
+}
+span
+{
+    text-decoration: underline;
+    color: rgb(34, 34, 148);
+    margin: 3px;
+}
+.stretch_btn
+{
+    background-color: rgb(0, 128, 0);
+    color: white;
+    border: none;
+    margin-top: 20px;
+    padding: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    transition: all 0.50s;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.stretch_btn:hover
+{
+    padding: 18px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-bottom: 0px;
+}
+.sclick_btn
+{
+    background-color: rgb(0, 128, 0);
+    color: white;
+    border:none;
+    padding: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 15px;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 20px rgb(148, 148, 148);
+    transition: all 0.15s;
+}
+.sclick_btn:active
+{
+    margin-top: 5px;
+    margin-left: 2px;
+    margin-bottom: 14.7px;
+}
+.one_btn
+{
+    background-color: rgb(0, 128, 0);
+    color: white;
+    padding: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: none;
+    transition: all 0.50s;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.one_btn:hover
+{
+    margin-left: 0px;
+    margin-right: 9px;
+    padding-left:12px ;
+    padding-right: 15px;
+}
+.two_btn
+{
+    background-color: rgb(0, 128, 0);
+    color: white;
+    padding: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: none;
+    transition: all 0.50s;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.two_btn:hover
+{
+    margin-left: 2px;
+    margin-right: 7px;
+    padding-left:12px ;
+    padding-right: 15px;
+}
+.three_btn
+{
+    background-color: rgb(0, 128, 0);
+    color: white;
+    padding: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: none;
+    transition: all 0.50s;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.three_btn:hover
+{
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-left:12px ;
+    padding-right: 15px;
+}

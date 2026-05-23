@@ -1,0 +1,132 @@
+.request_btn
+        {
+            background-color: black;
+            color:white;
+            height: 36px;
+            width: 110px;
+            margin-right: 10px;
+        }
+        .practicse_button
+        {
+            height: 36px;
+            width: 100px;
+            background-color: aquamarine;
+            color: blue;
+            border-radius: 15px;
+        }
+        .practicse_button:hover{
+            background-color:aqua;
+            cursor:pointer;
+            width: 95px;
+            transition-duration: 1s;
+            margin-left: 5.7px;
+        }
+        .add_to_cart_BTN
+        {
+            background-color: rgb(255, 255, 30);
+            color: black;
+            width: 150px;
+            height: 36px;
+            border-radius: 15px;
+            border-color : cornsilk;
+        }
+        .signip_btn
+        {
+            background-color: rgb(73, 146, 83);
+            color: white;
+            border-radius: 3px;
+            height: 36px;
+            width: 100px;
+            border: none;
+            font-size: 15px;
+            margin-left:10px;
+        }
+        .get_started_Btn
+        {
+            background-color: #a03bff;
+            color: white;
+            font-size: 15px;
+            border-radius: 2px;
+            height: 36px;
+            width: 100px;
+            margin-left: 10px;
+            border: none;
+        }
+        .download_btn
+        {
+            background-color: aliceblue;
+            color: rgb(48, 45, 45);
+            height: 36px;
+            width: 100px;
+            margin-left: 10px;
+            border-radius: 2px;
+            font-family:Verdana;
+            border-width: 1px;
+            margin-bottom: 20px;
+        }
+        .apply_btn
+        {
+            margin-left: 10px;
+            background-color: rgb(50, 50, 239);
+            color:white;    
+            height: 36px;
+            width: 230px;
+            border-radius: 18px;
+            font-size: 15px;
+            border: none;
+            cursor:grabbing;
+        }
+        .save_btn
+        {
+            background-color:white ;
+            color: rgb(1, 1, 255);
+            height: 36px;
+            width: 80px;
+            margin-left: 10px;
+            border-radius: 18px;
+            border-color: blue;
+        }
+        .p1_p
+        {
+            color: rgb(32, 170, 32);
+            font-size: 20px;
+        }
+        .p2_p
+        {
+            font-size: 17px;
+        }
+        .addCart_btn
+        {
+            background-color: rgb(255, 255, 29);
+            color: black;
+            height: 36px;
+            width: 110px;
+            border: none;
+            border-radius: 18px;
+            font-size: 13px;
+        }
+        .buy_btn
+        {
+            background-color: rgb(249, 166, 11);
+            color: black;
+            height: 36px;
+            width: 110px;
+            font-size: 13px;
+            border-radius: 18px;
+            border: none;
+            cursor: pointer;
+        }
+        .demo1
+        {
+            background-color: green;
+            color: white;
+            font-weight: bold;
+            font-size: 15px;
+            margin-left: 20px;
+            padding:9px;
+            padding-left: 20px;
+            padding-right: 20px;
+            border: none;
+            border-radius: 3px;
+
+        }

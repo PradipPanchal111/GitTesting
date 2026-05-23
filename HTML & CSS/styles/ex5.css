@@ -1,0 +1,127 @@
+.ivimg
+{
+    width: 500px;
+    height: 500px;
+   object-fit:contain;
+   object-position:center;
+   border: 2px;
+   border-color: red;
+   border-style: solid;
+   margin-bottom: 0px;
+   display: block;
+   border-radius: 200px;
+}
+.search{
+    font-size: 15px;
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 10px;
+    border-color: blue;
+    margin-bottom: 0px;
+    object-position: center;
+}
+.shru
+{
+    border-radius: 400px;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-color: blue;
+    border-width: 5px;
+    vertical-align:middle;
+}
+.temp
+{
+    width: 300px;
+    height: 300px;
+    object-position: right;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-left: 90px;
+    vertical-align:middle;
+}
+.gola
+{
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    margin-left: 90px;
+    vertical-align:middle;
+}
+.gsearch
+{
+    margin-top: 20px;
+    width: 600px;
+    padding: 9px;
+    padding-left: 15px;
+    box-shadow: 3px 3px 10px rgb(166, 165, 165);
+    font-size: 15px;
+    border-radius: 17px;
+    border: none;
+    margin-bottom: 200px;
+}
+.cat
+{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    vertical-align: middle;
+}
+.whats
+{
+    height: 20px;
+    width: 500px;
+    vertical-align: middle;
+    border: none;
+    font-size: 20px;
+}
+.tweet
+{
+    background-color: rgb(73, 73, 255);
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    color:wheat;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-weight: bold;
+    box-shadow: 3px 3px 7px rgb(149, 149, 149);
+    transition: 0.20s;
+}
+.tweet:hover
+{
+    box-shadow: 3px 3px 7px rgb(109, 107, 107);
+}
+.email
+{
+    font-family: Arial;
+    margin-top: 200px;
+    color: rgb(106, 106, 105);
+    margin-bottom: 0px;
+}
+.etext
+{
+    margin-top:3px;
+    width: 300px;
+    border-radius: 3px;
+    border-style: double;
+}
+.privacy
+{
+    font-family: arial; 
+    color: rgb(104, 104, 146);  
+}
+.agreebtn
+{
+    border: none;
+    width: 300px;
+    background-color: #5151ff;;
+    color: white;
+    border-radius: 25px;
+    padding: 10px;
+}
+.agreebtn:hover
+{
+    background-color: #3232ff;
+}

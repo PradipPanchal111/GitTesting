@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="script.js"></script>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <form action="index.html" > 
+    Select Hobby : 
+    <label>
+      <input type="radio" name="hobby"  value="reading"> Reading
+    </label>
+    <label>
+      <input type="radio" name="hobby"  value="swiming"> Swiming
+    </label>
+    <label>
+      <input type="radio" name="hobby"  value="cricket"> Cricket
+    </label>
+    <button onclick="getHobby()">Submit</button>
+  </form>
+
+  <div>
+    <form action="index.html" id="subs">
+    Select Subjects:<br>
+
+    <div>
+        <label>
+      <input type="checkbox" name="subject" value="physics"> Physics
+    </label><br>
+    <label>
+      <input type="checkbox" name="subject" value="geography"> Geography
+    </label><br>
+    <label>
+      <input type="checkbox" name="subject" value="maths"> Maths
+    </label><br>
+    <label>
+      <input type="checkbox" name="subject" value="chemistry"> Chemistry
+    </label>
+    </div>
+    <br>
+    <button onclick="getSub()" id="btn">
+      Submit
+    </button>
+  </form>
+  </div>
+  
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #weatherInfoDiv {
+    background-color: gray;
+    height: 200px;
+    width: 400px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #formTitle {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  input {
+    margin: 5px;
+    width: 200px;
+    height: 20px;
+    border-radius: 15px;
+  }
+
+  #button1 {
+    border-radius: 15px;
+    height: 30px;
+    width: 200px;
+    background-color: aquamarine;
+
+  }
+</style>
+
+<body>
+  <div id="weatherInfoDiv">
+    <form class="weatherForm">
+      <label id="formTitle">Weather Info</label><br>
+
+      <label id="longitudeLabel">Enter Longitude</label>
+      <input type="number" id="longitudeInput" step="any"><br>
+
+      <label id="latitudeLabel">Enter Latitude</label>
+      <input type="number" id="latitudeInput" step="any"><br>
+
+      <button id="button1" onclick="findInf(event)">Show Weather Information</button><br>
+
+      <label id="result"> </label>
+    </form>
+  </div>
+</body>
+<script>
+  var result = document.getElementById("result");
+  async function findInf(event) {
+    event.preventDefault();
+    try {
+      var logi = document.getElementById("longitudeInput").value;
+      var lati = document.getElementById("latitudeInput").value;
+      const res = await fetch("https://api.open-meteo.com/v1/forecast?latitude=" + logi + "&longitude=" + lati + "&current_weather=true");
+
+      const data = await res.json();
+      console.log(data);
+      result.innerHTML = "Temprature: " + data.current_weather.temperature + "  Wind Speed: " + data.current_weather.windspeed;
+    }
+    catch (error) {
+      result.innerHTML = error;
+      console.log(error);
+    }
+  }
+
+
+</script>
+
+</html>

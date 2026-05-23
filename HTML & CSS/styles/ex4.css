@@ -1,0 +1,119 @@
+.p1
+            {
+                font-family: Tahoma;
+                font-weight: bold;
+                font-size: 20px;
+                margin-bottom: 30px;
+            }
+            .p2
+            {
+                font-family: Arial;
+                font-size: 30px;
+                margin-bottom: 0px;
+                font-weight: bold;
+            }
+            .p3
+            {
+                margin-top: 3px;
+                font-style: italic;
+                color: red;
+                font-family: Arial;
+                margin-bottom: 50px;
+            }
+            .p4
+            {
+                font-weight: bold;
+                font-size: 23px;
+                font-family: Verdana;
+                margin-bottom: 0px;
+            }
+            .p5
+            {
+                font-family: Verdana;
+                color: gray;
+                margin-top: 3px;
+                margin-bottom: 20px;
+            }
+            .p6
+            {
+                font-family: Verdana;
+                width: 300px;
+            }
+            .strt_btn
+            {
+                background-color: rgb(0, 128, 0);
+                color: white;
+                padding:8px;
+                padding-left: 18px;
+                padding-right: 18px;
+                border-radius: 3px;
+                border: none;
+                margin-bottom: 50px;
+            }
+            .head1
+            {
+                font-weight: bold;
+                font-size: 30px;
+                text-align: center;
+                font-family: arial;
+            }
+            .head2
+            {
+                font-family: Arial;
+                text-align: center;
+            }
+            .head3
+            {
+                color: blue;
+                text-align: center;
+                cursor: pointer;
+                transition: all 0.30s;
+                margin-bottom: 50px;
+            }
+            .head3:hover
+            {
+                font-size: 18px;
+                margin-bottom: 45.4px;
+            }
+            .new_1
+            {
+                font-family: Arial;
+                text-align: center;
+                padding: 5px;
+                margin: 5px;
+                word-spacing: 2px;
+                
+            }
+            .sp1
+            {
+                color: red;
+                font-size: 15px;
+            }
+            .sp2
+            {
+                font-size: 18px;
+                font-weight: bold;
+            }
+            .sp3
+            {
+                font-weight: bold;
+                font-size: 23px;
+            }
+            .sp4
+            {
+                color: gray;
+                font-size: 15px;
+            }
+            .sp5
+            {
+                background-color: blue;
+                color: white;
+                padding-left: 10px;
+                padding-right: 10px;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                border-radius: 10px;
+                border: none;
+                margin-bottom: 50px;
+            }
+        
